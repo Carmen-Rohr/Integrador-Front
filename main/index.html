@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">   
+    <title>Integrador Front</title>
+  </head>
+
+  <body>  
+
+    <div class="container-fluid">
+
+        <section id="menu">
+            <nav class="navbar navbar-expand-xl navbar-light bg-dark">                    
+                <div id="logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="/assets/img/codoacodo.png" alt="Logo" width="70" height="50" class="d-inline-block align-text-top">                
+                    </a>
+                    <a class="navbar-brand" id="titulo" href="#">Conf Bs As</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                        </li>                
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-grey" href="#">Los oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-grey" href="#">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-grey" href="#">Conviertete en orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="nav-link-ticket">Comprar tickets</a>
+                        </li>
+                    </ul>                
+                </div>
+            </nav>
+        </section>
+
+        <section id="imagen-palacio">            
+                <div class="imagen-fondo">
+                    <img src="/assets/img/ba1.jpg" class="img-fluid" alt="Buenos Aires" max-width="100%">               
+                </div>
+            
+        </section>
+     
+        
+        <section id="oradores">
+            <h6 class="text-center" id="titulo1">CONOCE A LOS</h6>
+            <h3 class="text-center" id="titulo2">ORADORES</h3>
+            
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./assets/img/steve.jpg" class="card-img-top" alt="Steve Jobs">
+                        <div class="card-body">
+                            <span class="titulo-1">Javascript</span>
+                            <span class="titulo-2">React</span>
+                            <h5 class="card-title">Steve Jobs</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./assets/img/bill.jpg" class="card-img-top" alt="Bill Gates">
+                        <div class="card-body">
+                            <span class="titulo-1">Javascript</span>
+                            <span class="titulo-2">React</span>
+                            <h5 class="card-title">Bill Gates</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assets/img/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+                    <div class="card-body">
+                        <span class="titulo-3">Negocios</span>
+                        <span class="titulo-4">Startups</span>
+                        <h5 class="card-title">Ada Lovelace</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+            
+        </section>
+
+        <section id="onolulu">               
+            <div class="container-fluid" id="container-col">
+                <div class="row">
+                    <div class="col" id="col-section-4">
+                        <img src="/assets/img/honolulu.jpg" alt="Honolulu" class ="img-column">
+                    </div>
+                    <div class="col">
+                        <h2 id="onolulu-titulo">Bs As - Octubre</h2>
+                        <p id="onolulu-parrafo">Buenos Aires es la provincia mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad- condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).   </p>
+                        <button class="button-bs-as">Conocé más</button>                    
+                    </div>            
+                </div>
+            </div>
+        </section>
+
+        <section id="formulario">
+            <span id="form-titulo1">CONVIERTETE EN UN</span>
+            <span id="form-titulo2">ORADOR</span>
+            <span id="form-titulo3">Anótate como orador para dar una <span id="subrayado">charla ignite</span>. Cuéntanos de que quieres hablar!</span>
+            <form class="row g-3">
+                <div class="col-md-6">                  
+                  <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="col-md-6">                  
+                  <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                </div>
+                <div class="col-12">                                   
+                  <textarea class="form-control" id="hablar" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+                </div>
+                
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-lg" id="btn-enviar">Enviar</button>
+                </div>
+              </form>
+              
+
+        </section>
+
+        <section id="pie-pagina">
+            <div class="container-fluid" id="container-footer">
+                <div class="row">
+                    <div class="col">
+                        <a href="#">Preguntas frecuentes</a>
+                    </div>
+                    <div class="col">
+                        <a href="#">Contáctanos</a>                    
+                    </div>        
+                    <div class="col">
+                        <a href="#">Prensa</a>                    
+                    </div>    
+                    <div class="col">
+                        <a href="#">Conferencia</a>                    
+                    </div>         
+                    <div class="col">
+                        <a href="#">Terminos y condiciones</a>                    
+                    </div>    
+                    <div class="col">
+                        <a href="#">Privacidad</a>                    
+                    </div> 
+                    <div class="col">
+                        <a href="#">Estudiantes</a>                    
+                    </div>                     
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

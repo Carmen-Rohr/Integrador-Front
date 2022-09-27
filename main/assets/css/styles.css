@@ -1,0 +1,197 @@
+html {
+    width: 100%;
+    height: 100vh;   
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    /*height: 100vh;*/
+    background: rgb(6, 6, 32);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de sección menu */
+
+nav.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#logo{
+    display: flex;
+    margin-left: 5em;
+}
+
+#navbarNav{
+    margin-right: 5em;
+}
+
+nav.navbar {
+    background-color: #47515A !important;
+    font-size: 1.25 em;    
+}
+
+#titulo{
+    color: white !important;    
+    padding-top: 0.75em !important;
+}
+
+.active{
+    color: white !important;
+}
+
+.nav-link-grey {
+    color:rgb(179, 175, 175) !important;
+}
+
+#nav-link-ticket {
+    color:#04C404 !important;
+}
+
+
+/* Estilos de section imagen-palacio*/
+.imagen-fondo{
+    filter: brightness(0.5);    
+}
+
+/* seccion oradores */
+#oradores {
+width: 80%;
+margin: 0 auto;
+margin-top: 1em;
+margin-bottom: 2em;
+}
+
+#titulo1{
+    color:grey;
+    justify-content: center;
+}
+
+.titulo-1{
+    font-size: 0.8em;
+    background-color: #F5D807;
+    padding: 0.15em;
+    border-radius: 5px;
+    font-weight: bold;
+   
+}
+.titulo-2{
+    margin-left: 0.25em;
+    font-size: 0.8em;
+    background-color: #05B3B9;
+    padding: 0.15em;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;   
+}
+.titulo-3{
+    font-size: 0.8em;
+    background-color: gray;
+    padding: 0.15em;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;   
+}
+
+.titulo-4{
+    margin-left: 0.25em;
+    font-size: 0.8em;
+    background-color: red;
+    padding: 0.15em;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;   
+}
+/*section 4*/
+
+.img-column{
+    width:100%;
+    margin-left: 0;
+    
+   /* height:100%;*/
+}
+
+#container-col {
+    background-color: #494947;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+
+#onolulu-titulo{
+    color:white;
+    font-size:2em;
+}
+
+#onolulu-parrafo{
+    color:white;
+    font-size:0.87em;   
+}
+
+.button-bs-as{
+    background-color:transparent;
+    border-radius: 8px;
+    border-color:white;
+    color:white;
+    padding: 12px 28px;
+}
+
+/*section 5 */
+#formulario{
+    width:100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-titulo1{
+    font-size: 0.8em;    
+    margin-top: 1em;
+}
+
+#form-titulo2{
+    font-size: 2em;
+}
+
+#form-titulo3{
+    font-size:0.8em; 
+    margin-bottom: 1em;
+}
+
+#subrayado{
+    border-bottom:1px dotted;
+    text-decoration:none;
+}
+
+#hablar{
+    font-size:1.5em;
+}
+
+#btn-enviar{
+    background-color:#AADA13;
+    border-color: #A8DA0D;
+    width:100%;
+    margin-bottom: 1em;
+}
+
+
+/*section 6*/
+#container-footer{
+    background-color: #06475B;
+    background: linear-gradient(to right, #013A4C, #035E7B);
+    padding: 1em;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+#container-footer a{
+    color:white;    
+    text-decoration: none;
+}    
+
